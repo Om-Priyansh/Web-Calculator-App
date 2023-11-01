@@ -312,6 +312,11 @@ form input.operator{
         z-index: 1000;
     }
 
+    .container{
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    }
     
     .calculator form input{
         border: 0;
