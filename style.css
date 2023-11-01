@@ -96,6 +96,23 @@ header ul li a:hover , .active
 }
 
 
+.Text_about{
+    position: absolute;
+    top:60px;
+    left: 0;
+    width: 100%;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* z-index: 2000; */
+    font-size: 2em;
+    letter-spacing: 5px;  
+    font-weight: 700; 
+    animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInRight;
+}
+
+
 .container{
     width: 100%;
     height: 100vh;
@@ -164,6 +181,7 @@ h1{
     z-index: 1000;
 
 }
+
 .submit{
     display: flex;
     align-items: center;
@@ -221,7 +239,7 @@ form input.operator{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 
     
 
@@ -233,8 +251,9 @@ form input.operator{
         width: 100%;
         padding: 50px 20px;
         display: flex;
-        justify-content: left;
+        /* justify-content: left; */
         align-items: center;
+        justify-content: space-around;
         /* z-index: 10000; */
     }
     
@@ -311,8 +330,114 @@ form input.operator{
     .Text{
         display: none;
     }
+
+    form input.equal{
+        width: 100px;
+    }
     
+    .Text_about{
+        position: absolute;
+        top:60px;
+        left: 0;
+        width: 100%;
+        padding: 100px 100px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* z-index: 2000; */
+        font-size: 1em;
+        letter-spacing: 5px;  
+        font-weight: 700; 
+        animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInRight;
+    }
+
+    .contact{
+
+    height: 70vh;}
+
 }
 
+    
 
 
+
+
+
+@media screen and (min-width: 768px) and (max-width:1025px){
+    
+    header
+    {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* z-index: 10000; */
+    }
+    
+    .calculator form input{
+        border: 0;
+        outline: 0;
+        width: 70px;
+        height: 5.4vh;
+        border-radius: 10px;
+        box-shadow: -8px -8px 15px #ffffff1d,5px 5px 15px #00000031;
+        background: transparent;
+        font-size: 25px;
+        color: #fff;
+        cursor: pointer;
+        /* margin: 10px; */
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: #e3f9ff;
+        background: linear-gradient(#fff,#DAC1E4);
+        display: flex;
+        align-items:last baseline;
+        justify-content:center;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+    form .display input{
+        font-size: 40px;
+        box-shadow: none;
+    }
+    
+    .Text{
+        position: absolute;
+        top:60px;
+        left: 0;
+        width: 100%;
+        /* padding: 100px 100px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 2000; */
+        font-size: 2em;
+        letter-spacing: 5px;  
+        font-weight: 700; 
+        animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInRight;
+    }
+
+    .Text_about{
+        position: absolute;
+        top:60px;
+        left: 0;
+        width: 100%;
+        padding: 100px 100px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        /* z-index: 2000; */
+        font-size: 1.5em;
+        letter-spacing: 5px;  
+        font-weight: 700; 
+        animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInRight;
+    }
+    
+}
