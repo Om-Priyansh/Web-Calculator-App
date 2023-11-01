@@ -254,7 +254,7 @@ form input.operator{
         /* justify-content: left; */
         align-items: center;
         justify-content: space-around;
-        /* z-index: 10000; */
+        z-index: 10000;
     }
     
     header .logo
@@ -301,12 +301,7 @@ form input.operator{
     
 
     .calculator{
-        /* background: #3a4452; */
-        /* background: #3a4452; */
         background: #603775;
-        /* background: linear-gradient(#97B7D0, #FFF); */
-        /* padding-right: 10px; */
-        /* margin-left: 50px; */
         border-radius: 10px;
         animation: 2s cubic-bezier(0, 0, 0, 1) 0s 1 slideInBottom;
         z-index: 1000;
